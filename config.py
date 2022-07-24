@@ -5,10 +5,10 @@ BUCKET_NAME = 'data-engineering-intern-data'
 FOLDER = 'graph-data'
 
 #cosmosdb database details
-ENDPOINT = 'wss://deintern.gremlin.cosmos.azure.com:443/'
-DATABASE = 'cosmosdb'
-COLLECTION = 'cosmosgraph'
-PRIMARY_KEY = 'HBruaZ42qe5BXOyiUGxWUCDIECuzLWw8PoFeYNr2020iQzqwV9NPWbxoOM5ppFqhBv862legMHoDYKMvOW5Cew=='
+ENDPOINT = ''
+DATABASE = ''
+COLLECTION = ''
+PRIMARY_KEY = ''
 
 # utility functions
 def insert_vertices(gremlin_client, nodes):
